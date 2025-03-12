@@ -1,0 +1,772 @@
+[
+  {
+    "id": 1,
+    "title": "Stylish Leather Jacket",
+    "category": "jackets",
+    "description": "A premium leather jacket with a modern fit.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/jackets/jackets1.jpg"],
+    "price": 120
+  },
+  {
+    "id": 2,
+    "title": "Casual Denim Jacket",
+    "category": "jackets",
+    "description": "A classic denim jacket for everyday wear.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/jackets/jackets2.jpg"],
+    "price": 85
+  },
+  {
+    "id": 3,
+    "title": "Modern Bomber Jacket",
+    "category": "jackets",
+    "description": "A trendy bomber jacket with a sleek design.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/jackets/jackets3.jpg"],
+    "price": 95
+  },
+  {
+    "id": 4,
+    "title": "Winter Parka Coat",
+    "category": "jackets",
+    "description": "A warm and durable parka for winter days.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/jackets/jackets4.jpg"],
+    "price": 150
+  },
+  {
+    "id": 5,
+    "title": "Slim Fit Chinos",
+    "category": "pants",
+    "description": "Comfortable and stylish slim fit chinos.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/pants/pants1.jpg"],
+    "price": 60
+  },
+  {
+    "id": 6,
+    "title": "Classic Straight Jeans",
+    "category": "pants",
+    "description": "Timeless straight jeans for a casual look.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/pants/pants2.jpg"],
+    "price": 70
+  },
+  {
+    "id": 7,
+    "title": "Sporty Running Shoes",
+    "category": "shoes",
+    "description": "Lightweight running shoes for optimal performance.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/shoes/shoes1.jpg"],
+    "price": 95
+  },
+  {
+    "id": 8,
+    "title": "Leather Loafers",
+    "category": "shoes",
+    "description": "Stylish and comfortable leather loafers.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/shoes/shoes2.jpg"],
+    "price": 110
+  },
+  {
+    "id": 9,
+    "title": "Classic Aviator Sunglasses",
+    "category": "sunglasses",
+    "description": "Timeless aviator sunglasses with UV protection.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/sunglasses/sunglasses1.jpg"],
+    "price": 50
+  },
+  {
+    "id": 10,
+    "title": "Modern Wayfarer Sunglasses",
+    "category": "sunglasses",
+    "description": "Stylish wayfarer sunglasses for a trendy look.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/sunglasses/sunglasses2.jpg"],
+    "price": 55
+  },
+  {
+    "id": 11,
+    "title": "Cozy Knitted Sweater",
+    "category": "sweaters-shirts",
+    "description": "A soft and warm knitted sweater for chilly days.",
+    "amount": 1,
+    "images": [
+      "${BASE_URL}/public/categories/sweaters-shirts/sweaters-shirts1.jpg"
+    ],
+    "price": 75
+  },
+  {
+    "id": 12,
+    "title": "Casual Cotton T-Shirt",
+    "category": "sweaters-shirts",
+    "description": "A breathable cotton t-shirt for everyday wear.",
+    "amount": 1,
+    "images": [
+      "${BASE_URL}/public/categories/sweaters-shirts/sweaters-shirts2.jpg"
+    ],
+    "price": 25
+  },
+  {
+    "id": 13,
+    "title": "Luxury Leather Watch",
+    "category": "watches",
+    "description": "Elegant leather watch with a sleek design.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/watches/watches1.jpg"],
+    "price": 150
+  },
+  {
+    "id": 14,
+    "title": "Classic Stainless Steel Watch",
+    "category": "watches",
+    "description": "A refined stainless steel watch with a minimalist touch.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/watches/watches2.jpg"],
+    "price": 175
+  },
+  {
+    "id": 15,
+    "title": "Elegant Business Watch",
+    "category": "watches",
+    "description": "A sophisticated watch perfect for formal occasions.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/watches/watches3.jpg"],
+    "price": 200
+  },
+  {
+    "id": 16,
+    "title": "Modern Digital Watch",
+    "category": "watches",
+    "description": "A stylish and functional digital watch for daily use.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/watches/watches4.jpg"],
+    "price": 90
+  },
+  {
+    "id": 17,
+    "title": "Casual Sports Watch",
+    "category": "watches",
+    "description": "A durable sports watch for active lifestyles.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/watches/watches5.jpg"],
+    "price": 130
+  },
+  {
+    "id": 18,
+    "title": "Oversized Hoodie Sweater",
+    "category": "sweaters-shirts",
+    "description": "A warm oversized hoodie with a modern look.",
+    "amount": 1,
+    "images": [
+      "${BASE_URL}/public/categories/sweaters-shirts/sweaters-shirts3.jpg"
+    ],
+    "price": 80
+  },
+  {
+    "id": 19,
+    "title": "Plaid Flannel Shirt",
+    "category": "sweaters-shirts",
+    "description": "A stylish plaid flannel shirt for casual wear.",
+    "amount": 1,
+    "images": [
+      "${BASE_URL}/public/categories/sweaters-shirts/sweaters-shirts4.jpg"
+    ],
+    "price": 65
+  },
+  {
+    "id": 20,
+    "title": "V-Neck Sweater",
+    "category": "sweaters-shirts",
+    "description": "A classic V-neck sweater for a refined look.",
+    "amount": 1,
+    "images": [
+      "${BASE_URL}/public/categories/sweaters-shirts/sweaters-shirts5.jpg"
+    ],
+    "price": 70
+  },
+  {
+    "id": 21,
+    "title": "Slim Fit Dress Pants",
+    "category": "pants",
+    "description": "Elegant slim fit dress pants for formal occasions.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/pants/pants3.jpg"],
+    "price": 75
+  },
+  {
+    "id": 22,
+    "title": "Relaxed Fit Joggers",
+    "category": "pants",
+    "description": "Comfortable joggers for everyday wear.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/pants/pants4.jpg"],
+    "price": 50
+  },
+  {
+    "id": 23,
+    "title": "High-Top Sneakers",
+    "category": "shoes",
+    "description": "Trendy high-top sneakers for a streetwear look.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/shoes/shoes3.jpg"],
+    "price": 120
+  },
+  {
+    "id": 24,
+    "title": "Casual Slip-On Shoes",
+    "category": "shoes",
+    "description": "Easy-to-wear slip-on shoes for a relaxed feel.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/shoes/shoes4.jpg"],
+    "price": 80
+  },
+  {
+    "id": 25,
+    "title": "Polarized Sports Sunglasses",
+    "category": "sunglasses",
+    "description": "Durable sunglasses for outdoor activities.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/sunglasses/sunglasses3.jpg"],
+    "price": 60
+  },
+  {
+    "id": 26,
+    "title": "Retro Round Sunglasses",
+    "category": "sunglasses",
+    "description": "Vintage-style round sunglasses with UV protection.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/sunglasses/sunglasses4.jpg"],
+    "price": 45
+  },
+  {
+    "id": 27,
+    "title": "Winter Puffer Jacket",
+    "category": "jackets",
+    "description": "A cozy and stylish puffer jacket for cold weather.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/jackets/jackets5.jpg"],
+    "price": 180
+  },
+  {
+    "id": 28,
+    "title": "Vintage Leather Jacket",
+    "category": "jackets",
+    "description": "A timeless leather jacket with a rugged look.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/jackets/jackets6.jpg"],
+    "price": 200
+  },
+  {
+    "id": 29,
+    "title": "Casual Bomber Jacket",
+    "category": "jackets",
+    "description": "A lightweight bomber jacket for a trendy look.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/jackets/jackets7.jpg"],
+    "price": 110
+  },
+  {
+    "id": 30,
+    "title": "Formal Blazer Jacket",
+    "category": "jackets",
+    "description": "A stylish blazer perfect for formal occasions.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/jackets/jackets8.jpg"],
+    "price": 140
+  },
+  {
+    "id": 31,
+    "title": "Skinny Fit Jeans",
+    "category": "pants",
+    "description": "Modern skinny fit jeans for a stylish look.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/pants/pants5.jpg"],
+    "price": 65
+  },
+  {
+    "id": 32,
+    "title": "Cargo Utility Pants",
+    "category": "pants",
+    "description": "Durable cargo pants with multiple pockets.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/pants/pants6.jpg"],
+    "price": 80
+  },
+  {
+    "id": 33,
+    "title": "Athletic Performance Shoes",
+    "category": "shoes",
+    "description": "Lightweight athletic shoes for high performance.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/shoes/shoes5.jpg"],
+    "price": 100
+  },
+  {
+    "id": 34,
+    "title": "Stylish Loafers",
+    "category": "shoes",
+    "description": "Classic loafers with a touch of elegance.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/shoes/shoes6.jpg"],
+    "price": 125
+  },
+  {
+    "id": 35,
+    "title": "Trendy Oversized T-Shirt",
+    "category": "sweaters-shirts",
+    "description": "A relaxed oversized t-shirt for casual styling.",
+    "amount": 1,
+    "images": [
+      "${BASE_URL}/public/categories/sweaters-shirts/sweaters-shirts6.jpg"
+    ],
+    "price": 30
+  },
+  {
+    "id": 36,
+    "title": "Slim Fit Polo Shirt",
+    "category": "sweaters-shirts",
+    "description": "A stylish slim fit polo for a clean look.",
+    "amount": 1,
+    "images": [
+      "${BASE_URL}/public/categories/sweaters-shirts/sweaters-shirts7.jpg"
+    ],
+    "price": 45
+  },
+  {
+    "id": 37,
+    "title": "Square Frame Sunglasses",
+    "category": "sunglasses",
+    "description": "Modern square frame sunglasses with UV protection.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/sunglasses/sunglasses5.jpg"],
+    "price": 55
+  },
+  {
+    "id": 38,
+    "title": "Minimalist Leather Watch",
+    "category": "watches",
+    "description": "A sleek and minimalist leather watch.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/watches/watches6.jpg"],
+    "price": 160
+  },
+  {
+    "id": 39,
+    "title": "Sports Chronograph Watch",
+    "category": "watches",
+    "description": "A high-performance chronograph watch.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/watches/watches7.jpg"],
+    "price": 220
+  },
+  {
+    "id": 40,
+    "title": "Classic Trench Coat",
+    "category": "jackets",
+    "description": "A stylish trench coat for timeless elegance.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/jackets/jackets9.jpg"],
+    "price": 170
+  },
+  {
+    "id": 41,
+    "title": "Denim Shirt Jacket",
+    "category": "jackets",
+    "description": "A versatile denim jacket with a shirt-style fit.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/jackets/jackets10.jpg"],
+    "price": 100
+  },
+  {
+    "id": 42,
+    "title": "Classic Straight Leg Jeans",
+    "category": "pants",
+    "description": "Classic straight-leg jeans for a vintage feel.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/pants/pants7.jpg"],
+    "price": 70
+  },
+  {
+    "id": 43,
+    "title": "Tapered Jogger Pants",
+    "category": "pants",
+    "description": "Stylish tapered joggers for active comfort.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/pants/pants8.jpg"],
+    "price": 55
+  },
+  {
+    "id": 44,
+    "title": "Performance Trail Running Shoes",
+    "category": "shoes",
+    "description": "Durable trail running shoes for outdoor adventures.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/shoes/shoes7.jpg"],
+    "price": 130
+  },
+  {
+    "id": 45,
+    "title": "Chelsea Leather Boots",
+    "category": "shoes",
+    "description": "Elegant Chelsea boots with premium leather.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/shoes/shoes8.jpg"],
+    "price": 180
+  },
+  {
+    "id": 46,
+    "title": "Basic Crew Neck T-Shirt",
+    "category": "sweaters-shirts",
+    "description": "A classic crew neck t-shirt for everyday wear.",
+    "amount": 1,
+    "images": [
+      "${BASE_URL}/public/categories/sweaters-shirts/sweaters-shirts8.jpg"
+    ],
+    "price": 25
+  },
+  {
+    "id": 47,
+    "title": "Long Sleeve Henley Shirt",
+    "category": "sweaters-shirts",
+    "description": "A stylish Henley shirt with long sleeves.",
+    "amount": 1,
+    "images": [
+      "${BASE_URL}/public/categories/sweaters-shirts/sweaters-shirts9.jpg"
+    ],
+    "price": 40
+  },
+  {
+    "id": 48,
+    "title": "Aviator Polarized Sunglasses",
+    "category": "sunglasses",
+    "description": "Classic aviator sunglasses with polarized lenses.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/sunglasses/sunglasses6.jpg"],
+    "price": 70
+  },
+  {
+    "id": 49,
+    "title": "Rugged Field Watch",
+    "category": "watches",
+    "description": "A tough and durable field watch for adventure lovers.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/watches/watches8.jpg"],
+    "price": 190
+  },
+  {
+    "id": 50,
+    "title": "Classic Wool Overcoat",
+    "category": "jackets",
+    "description": "A warm wool overcoat for an elegant winter look.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/jackets/jackets11.jpg"],
+    "price": 210
+  },
+  {
+    "id": 51,
+    "title": "Distressed Denim Jeans",
+    "category": "pants",
+    "description": "Trendy distressed jeans for a rugged style.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/pants/pants9.jpg"],
+    "price": 75
+  },
+  {
+    "id": 52,
+    "title": "Canvas High-Top Sneakers",
+    "category": "shoes",
+    "description": "Classic high-top sneakers with a canvas upper.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/shoes/shoes9.jpg"],
+    "price": 95
+  },
+  {
+    "id": 53,
+    "title": "Performance Gym Shirt",
+    "category": "sweaters-shirts",
+    "description": "A breathable and lightweight gym shirt.",
+    "amount": 1,
+    "images": [
+      "${BASE_URL}/public/categories/sweaters-shirts/sweaters-shirts10.jpg"
+    ],
+    "price": 35
+  },
+  {
+    "id": 54,
+    "title": "Round Frame Vintage Sunglasses",
+    "category": "sunglasses",
+    "description": "Timeless round sunglasses with a retro feel.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/sunglasses/sunglasses7.jpg"],
+    "price": 50
+  },
+  {
+    "id": 55,
+    "title": "Minimalist Metal Watch",
+    "category": "watches",
+    "description": "A modern and sleek metal watch.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/watches/watches9.jpg"],
+    "price": 170
+  },
+  {
+    "id": 56,
+    "title": "Classic Trucker Jacket",
+    "category": "jackets",
+    "description": "A stylish denim trucker jacket.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/jackets/jackets12.jpg"],
+    "price": 130
+  },
+  {
+    "id": 57,
+    "title": "Slim Fit Khaki Pants",
+    "category": "pants",
+    "description": "Chic and comfortable slim-fit khakis.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/pants/pants10.jpg"],
+    "price": 65
+  },
+  {
+    "id": 58,
+    "title": "Elegant Leather Dress Shoes",
+    "category": "shoes",
+    "description": "High-quality leather dress shoes for formal events.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/shoes/shoes10.jpg"],
+    "price": 160
+  },
+  {
+    "id": 59,
+    "title": "Classic Plaid Shirt",
+    "category": "sweaters-shirts",
+    "description": "A classic plaid shirt for casual occasions.",
+    "amount": 1,
+    "images": [
+      "${BASE_URL}/public/categories/sweaters-shirts/sweaters-shirts11.jpg"
+    ],
+    "price": 55
+  },
+  {
+    "id": 60,
+    "title": "Vintage Pilot Sunglasses",
+    "category": "sunglasses",
+    "description": "Iconic pilot sunglasses for a bold look.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/sunglasses/sunglasses8.jpg"],
+    "price": 60
+  },
+  {
+    "id": 61,
+    "title": "Classic Gold Chronograph Watch",
+    "category": "watches",
+    "description": "A luxurious gold chronograph watch.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/watches/watches10.jpg"],
+    "price": 250
+  },
+  {
+    "id": 62,
+    "title": "Warm Parka Jacket",
+    "category": "jackets",
+    "description": "A heavy-duty parka for extreme cold.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/jackets/jackets13.jpg"],
+    "price": 220
+  },
+  {
+    "id": 63,
+    "title": "Slim Fit Stretch Pants",
+    "category": "pants",
+    "description": "Flexible and stylish stretch pants.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/pants/pants11.jpg"],
+    "price": 80
+  },
+  {
+    "id": 64,
+    "title": "High-Tech Running Shoes",
+    "category": "shoes",
+    "description": "Cutting-edge running shoes for performance.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/shoes/shoes11.jpg"],
+    "price": 140
+  },
+  {
+    "id": 65,
+    "title": "Slim Fit Business Shirt",
+    "category": "sweaters-shirts",
+    "description": "A sleek and modern business shirt for formal occasions.",
+    "amount": 1,
+    "images": [
+      "${BASE_URL}/public/categories/sweaters-shirts/sweaters-shirts12.jpg"
+    ],
+    "price": 70
+  },
+  {
+    "id": 66,
+    "title": "Retro Round Sunglasses",
+    "category": "sunglasses",
+    "description": "A stylish retro design with UV protection.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/sunglasses/sunglasses9.jpg"],
+    "price": 65
+  },
+  {
+    "id": 67,
+    "title": "Luxury Stainless Steel Watch",
+    "category": "watches",
+    "description": "A high-end stainless steel watch with premium features.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/watches/watches11.jpg"],
+    "price": 300
+  },
+  {
+    "id": 68,
+    "title": "Leather Bomber Jacket",
+    "category": "jackets",
+    "description": "A premium leather bomber jacket for a rugged style.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/jackets/jackets14.jpg"],
+    "price": 250
+  },
+  {
+    "id": 69,
+    "title": "Casual Chino Pants",
+    "category": "pants",
+    "description": "Versatile chino pants for casual and semi-formal occasions.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/pants/pants12.jpg"],
+    "price": 60
+  },
+  {
+    "id": 71,
+    "title": "Casual Striped T-Shirt",
+    "category": "sweaters-shirts",
+    "description": "A stylish striped t-shirt for an everyday look.",
+    "amount": 1,
+    "images": [
+      "${BASE_URL}/public/categories/sweaters-shirts/sweaters-shirts13.jpg"
+    ],
+    "price": 30
+  },
+  {
+    "id": 72,
+    "title": "Oversized Square Sunglasses",
+    "category": "sunglasses",
+    "description": "A bold fashion statement with oversized frames.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/sunglasses/sunglasses10.jpg"],
+    "price": 75
+  },
+  {
+    "id": 73,
+    "title": "Elegant Rose Gold Watch",
+    "category": "watches",
+    "description": "A beautiful rose gold watch for a luxurious touch.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/watches/watches12.jpg"],
+    "price": 280
+  },
+  {
+    "id": 74,
+    "title": "Winter Puffer Jacket",
+    "category": "jackets",
+    "description": "A warm and comfortable puffer jacket for winter.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/jackets/jackets15.jpg"],
+    "price": 190
+  },
+  {
+    "id": 77,
+    "title": "Graphic Printed T-Shirt",
+    "category": "sweaters-shirts",
+    "description": "A cool graphic tee with a bold statement.",
+    "amount": 1,
+    "images": [
+      "${BASE_URL}/public/categories/sweaters-shirts/sweaters-shirts14.jpg"
+    ],
+    "price": 40
+  },
+  {
+    "id": 78,
+    "title": "Premium Leather Belt",
+    "category": "watches",
+    "description": "A high-quality leather belt with a classic design.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/watches/watches13.jpg"],
+    "price": 50
+  },
+  {
+    "id": 79,
+    "title": "Heavy Duty Work Jacket",
+    "category": "jackets",
+    "description": "A strong and durable work jacket for tough conditions.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/jackets/jackets16.jpg"],
+    "price": 230
+  },
+  {
+    "id": 82,
+    "title": "Lightweight Hoodie",
+    "category": "sweaters-shirts",
+    "description": "A breathable and stylish hoodie for casual wear.",
+    "amount": 1,
+    "images": [
+      "${BASE_URL}/public/categories/sweaters-shirts/sweaters-shirts15.jpg"
+    ],
+    "price": 55
+  },
+  {
+    "id": 84,
+    "title": "Titanium Sports Watch",
+    "category": "watches",
+    "description": "A lightweight yet durable titanium watch for active users.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/watches/watches14.jpg"],
+    "price": 350
+  },
+  {
+    "id": 85,
+    "title": "Urban Style Bomber Jacket",
+    "category": "jackets",
+    "description": "A modern bomber jacket with a sleek urban design.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/jackets/jackets17.jpg"],
+    "price": 200
+  },
+  {
+    "id": 88,
+    "title": "Tech Smartwatch",
+    "category": "watches",
+    "description": "A modern smartwatch with smart features.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/watches/watches15.jpg"],
+    "price": 400
+  },
+  {
+    "id": 89,
+    "title": "Casual V-Neck T-Shirt",
+    "category": "sweaters-shirts",
+    "description": "A comfortable V-neck t-shirt for casual occasions.",
+    "amount": 1,
+    "images": [
+      "${BASE_URL}/public/categories/sweaters-shirts/sweaters-shirts16.jpg"
+    ],
+    "price": 30
+  },
+  {
+    "id": 90,
+    "title": "Vintage Leather Jacket",
+    "category": "jackets",
+    "description": "A stylish vintage leather jacket with a classic look.",
+    "amount": 1,
+    "images": ["${BASE_URL}/public/categories/jackets/jackets18.jpg"],
+    "price": 260
+  }
+]
