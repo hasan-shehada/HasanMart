@@ -1,6 +1,6 @@
 const path = require("path");
 
-const BASE_URL = "https://hasanmart.onrender.com/public";
+const BASE_URL = "https://hasanmart.onrender.com";
 const products = require(path.join(__dirname, "../data/products.json"));
 
 // Function to convert image paths to full URLs
