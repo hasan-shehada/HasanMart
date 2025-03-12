@@ -6,11 +6,11 @@ const path = require("path");
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// Enable CORS to allow cross-origin requests
-app.use(cors());
+// Enable CORS to allow cross-origin requests from the frontend
+app.use(cors({ origin: process.env.FRONTEND_URL || "*" }));
 
-// Serve static files from the "public" directory
-app.use("/public", express.static(path.join(__dirname, "public")));
+// Serve static files (like images)
+app.use(express.static(path.join(__dirname, "public")));
 
 // Import and use product routes
 const productRoutes = require("./routes/productRoutes");
@@ -23,5 +23,5 @@ app.get("/", (req, res) => {
 
 // Start the server and listen on the specified port
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT} !!!`);
+  console.log(`Server is running on port ${PORT}`);
 });
