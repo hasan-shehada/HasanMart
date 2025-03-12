@@ -7,9 +7,11 @@ const products = require(path.join(__dirname, "../data/products.json"));
 const resolveImagePaths = (product) => ({
   ...product,
   images: product.images.map((image) =>
-    image.includes("${BASE_URL}")
+    image.startsWith("${BASE_URL}")
       ? image.replace("${BASE_URL}", BASE_URL)
-      : `${BASE_URL}/uploads/${image}`
+      : image.startsWith("http")
+      ? image
+      : `${BASE_URL}/${image}`
   ),
 });
 
