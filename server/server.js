@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Enable CORS to allow cross-origin requests from the frontend
-app.use(cors({ origin: process.env.FRONTEND_URL || "*" }));
+app.use(cors({ origin: "https://hasanmart.pages.dev" || "*" }));
 
 // Serve static files (like images)
 app.use(express.static(path.join(__dirname, "public")));
